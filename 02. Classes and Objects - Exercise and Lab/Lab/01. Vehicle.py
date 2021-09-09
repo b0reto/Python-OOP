@@ -5,7 +5,6 @@ class Vehicle:
         self.gadgets = []
 
 
-
 car = Vehicle(20)
 print(car.max_speed)
 print(car.mileage)
