@@ -9,5 +9,5 @@ class Person:
 
 
 person = Person('Peter', 25)
-print(person.name)	# Peter
-print(person.age)	# 25
+print(person.name)  # Peter
+print(person.age)  # 25

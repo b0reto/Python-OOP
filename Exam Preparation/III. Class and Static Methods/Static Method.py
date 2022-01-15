@@ -6,6 +6,7 @@ class Person:
     def is_adult(age):
         return age >= 18
 
-print(Person.is_adult(5))   # False
+
+print(Person.is_adult(5))  # False
 girl = Person("Amy")
-print(girl.is_adult(20))     # True
+print(girl.is_adult(20))  # True

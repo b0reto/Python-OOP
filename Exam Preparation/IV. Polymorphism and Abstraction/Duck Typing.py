@@ -1,4 +1,5 @@
 def start_playing(obj):
+    # obj = Guitar class
     return obj.play()
 
 

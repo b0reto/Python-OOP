@@ -14,6 +14,7 @@ class GrandChild(Child):
         super().__init__(name, age)
         self.address = address
 
+# GrandChild inherits Child which inherits Parent
 
 grand_child = GrandChild("Grand Name", 19, "Address 15-17")
 print(grand_child.name)

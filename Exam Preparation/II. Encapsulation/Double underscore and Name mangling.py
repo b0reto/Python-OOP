@@ -10,4 +10,3 @@ red_car = Car()
 red_car.drive()  # driving max speed 200
 red_car.__max_speed = 10  # won't change because it is name mangled
 red_car.drive()  # driving max speed 200
-red_car.__max_speed = 40

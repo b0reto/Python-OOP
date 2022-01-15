@@ -15,6 +15,7 @@ class Dog(Animal):
         super().__init__(name)
 
     def sound(self):
+        # it is compulsory to override the sound method of the inherited class Animal, because it's an abstract method
         print("Bark!")
 
 
@@ -30,5 +31,5 @@ cat = Cat("Willy")
 cat.sound()
 dog = Dog("Willy")
 dog.sound()
-animal = Animal("Willy")
-animal.sound()
+#animal = Animal("Willy")
+#animal.sound()

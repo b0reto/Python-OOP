@@ -8,6 +8,7 @@ class Person:
 
 
 class Student(Person):
+    # class Student inherits class Person --> Inheritance Example
     pass
 
 

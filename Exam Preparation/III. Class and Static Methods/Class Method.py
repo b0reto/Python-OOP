@@ -10,11 +10,6 @@ class Pizza:
     def quattro_formaggi(cls):
         return cls(["mozzarella", "gorgonzola", "fontina", "parmigiano"])
 
-    @classmethod
-    def mamamia(cls):
-        return cls()
-
 
 first_pizza = Pizza.pepperoni()
 second_pizza = Pizza.quattro_formaggi()
-third_pizza = Pizza.quattro_formaggi()
